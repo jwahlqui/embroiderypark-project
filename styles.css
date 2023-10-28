@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Gabarito', sans-serif;
+    background-color: #97A4A7;
+}
+.embroidery-machine-image {
+    padding-bottom: 20px;
+    width: 100vw;
+    height: 400px;
+}
+.about-info-container {
+background-color: #B0C6CF;
+width: 400px;
+text-align: center;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 15px;
+padding-right: 15px;
+}
+.equipment-section-container {
+width: 500px;
+}
+.ingredient-section-container {
+width: 500px;
+}
+.instrucion-section-container {
+width: 500px;
+}
