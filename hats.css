@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Gabarito', sans-serif;
+    background-color: #eae4d6;
+}
+.hat-image-container {
+    border:#e8a70f;
+    width: 300px;
+}
