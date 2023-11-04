@@ -151,11 +151,26 @@ body {
 .products-container {
     background-color: #B0C6CF;
     width: 100%;
-    text-transform: uppercase;
-    text-align: center;
     margin-top: 10px;
 }
-.product-list {
+.product-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.product-links-container {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+}
+.link-box-container {
+    
+}
+/* .product-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -163,4 +178,7 @@ body {
     justify-content: space-between;
     align-items: stretch;
     align-content: stretch;
-}
+
+  a {
+    text-decoration: none;
+  }
