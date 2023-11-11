@@ -14,7 +14,7 @@ body {
 .hat-image-row {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	justify-content: space-evenly;
 	align-items: center;
 	align-content: stretch;
@@ -27,7 +27,7 @@ body {
 .hat-image-column {
     display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	align-content: space-evenly;
