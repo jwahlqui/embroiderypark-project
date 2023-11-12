@@ -14,7 +14,9 @@ body {
 #header {
     background-image: url("Assets/embroidery-machine.jpg");
     background-position-y: -156px;
+    background-repeat: no-repeat;
     height: 600px;
+    width: 100%;
     position: relative;
 
 }
@@ -49,7 +51,7 @@ body {
     text-transform: none;
 }
 .products-container {
-    background-color: #f7bfbc;
+    background-color: #f5938e;
     width: 100%;
     font-family: 'Gabarito', sans-serif;
     /* margin-top: 10px; */
@@ -74,19 +76,23 @@ body {
 }
 .link-box-container {
     background-color: #b4d0a3;
-    /* background-color: #D7D7CC; */
     width: 200px;
-    /* border: 1px solid black; */
     text-align: center;
     padding: 10px;
     color: black;
     margin: 10px;
-    border-color: black;
-    border-width: 1px;
-    border: solid;
+    background-color: #D7D7CC;
 }
 a {
     text-decoration: none;
+}
+/* unvisited link */
+a:link {
+    color: black;
+}  
+/* mouse over link */
+a:hover {
+    color: #4cb50b;
 }
 .general-information-container {
     font-family: 'Gabarito', sans-serif;
@@ -111,7 +117,7 @@ a {
     margin-top: 20px;
 }
 .contact-info-container {
-    background-color:#c4badd;
+    background-color:#afa1d3;
     /* background-color: #B0C6CF; */
     width: 50%;
     text-align: center;
