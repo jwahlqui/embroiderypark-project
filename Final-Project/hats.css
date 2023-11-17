@@ -58,6 +58,7 @@ body {
     border: solid;
     border-width: 10px;
     border-color:#BCCBAE;
+    border-radius: 25px;
 }
 .hat-image-column {
     display: flex;
@@ -65,6 +66,7 @@ body {
     flex-wrap: wrap;
     margin: auto;
     justify-content: center;
+    border-radius: 25px;
 }
 .hat-image-rectangle {
     width: 400px;
@@ -73,4 +75,5 @@ body {
     border: solid;
     border-width: 10px;
     border-color:#BCCBAE;
+    border-radius: 25px;
 }

@@ -58,6 +58,7 @@ body {
     border: solid;
     border-width: 10px;
     border-color:#BCCBAE;
+    border-radius: 25px;
 }
 .decorative-image-column {
     display: flex;
@@ -75,6 +76,7 @@ body {
     border: solid;
     border-width: 10px;
     border-color:#BCCBAE;
+    border-radius: 25px;
 }
 .decorative-image-wide-rectangle {
     width: 500px;
@@ -84,4 +86,5 @@ body {
     border: solid;
     border-width: 10px;
     border-color:#BCCBAE;
+    border-radius: 25px;
 }

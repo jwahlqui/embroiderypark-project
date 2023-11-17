@@ -74,6 +74,7 @@ body {
     border: solid;
     border-width: 10px;
     border-color:#BCCBAE;
+    border-radius: 25px;
 }
 .lace3d-image-tall-rectangle {
     width: 350px;
@@ -82,4 +83,5 @@ body {
     border: solid;
     border-width: 10px;
     border-color:#BCCBAE;
+    border-radius: 25px;
 }

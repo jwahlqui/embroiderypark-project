@@ -24,9 +24,9 @@ body {
     /* background-color: #9DB68D; */
     background-color: rgba(157,182,141,0.6);
     font-size: 80px;
+    font-weight: 213px;
     padding-left: 20px;
 }
-
 .bottom-right-overlay-text {
     position: absolute;
     bottom: 0px;
@@ -75,13 +75,13 @@ body {
     align-content: stretch;
 }
 .link-box-container {
-    background-color: #b4d0a3;
     width: 200px;
     text-align: center;
     padding: 10px;
     color: black;
     margin: 10px;
     background-color: #D7D7CC;
+    border-radius: 25px;
 }
 a {
     text-decoration: none;
@@ -92,7 +92,7 @@ a:link {
 }  
 /* mouse over link */
 a:hover {
-    color: #4cb50b;
+    color: #3a8a09;
 }
 .general-information-container {
     font-family: 'Gabarito', sans-serif;
