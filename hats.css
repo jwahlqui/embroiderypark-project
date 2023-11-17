@@ -4,18 +4,76 @@ body {
     align-items: center;
     font-family: 'Gabarito', sans-serif;
     background-color: #eae4d6;
+    padding: 0px;
+    margin: 0px;
+}
+#page {
     width: 100%;
+    height: 100%; 
 }
-.hat-image-row1 {
+#header {
+    background-image: url("Assets/hats-unsplashed.jpg");
+    position: relative;
+    background-size: cover;
+    background-position: 30% 80%;
+    height: 250px;
+}
+.hats-title {
+    margin: auto;
+}
+.title-overlay-text {
     display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: stretch;
-	align-content: stretch;
-    margin-bottom: 20px;
+    align-items: center;
+    position: absolute;
+    padding: 15px;
+    width: 100%;
+    bottom: 30%;
+    top: 30%;
+    right: 0px;
+    text-align: center;
+    margin-top: 0px;
+    background-color: rgba(157,182,141,0.6);
+    color: #000000;
+    font-size: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
-.image1 {
+.images container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.hat-image-row {
+    display: flex;
+    width: 85%;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+.hat-image-square {
     width: 300px;
     height: 300px;
+    padding: 0px;
+    margin: 20px;
+    margin-bottom: 10px;
+    border: solid;
+    border-width: 10px;
+    border-color:#BCCBAE;
+    border-radius: 25px;
+}
+.hat-image-column {
+    display: flex;
+    width: 85%;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    border-radius: 25px;
+}
+.hat-image-rectangle {
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    border: solid;
+    border-width: 10px;
+    border-color:#BCCBAE;
+    border-radius: 25px;
 }

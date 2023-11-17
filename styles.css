@@ -2,54 +2,100 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Gabarito', sans-serif;
+    /* font-family: 'Gabarito', sans-serif; */
+    font-family: 'Italianno', cursive;
     background-color: #eae4d6;
     padding: 0px;
     margin: 0px;
 }
-
 #page {
     width: 100%
 }
-
 #header {
     background-image: url("Assets/embroidery-machine.jpg");
-    background-position-y: -156px;
-    height: 600px;
+    background-position-y: -429px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
     position: relative;
-
 }
 .title-overlay-text {
-    text-transform: uppercase;
-    background-color: #9DB68D;
+    /* text-transform: uppercase; */
+    /* background-color: #9DB68D; */
+    background-color: rgba(157,182,141,0.6);
     font-size: 80px;
+    font-weight: 213px;
     padding-left: 20px;
 }
-
 .bottom-right-overlay-text {
     position: absolute;
     bottom: 0px;
     right: 0px;
     background-color: rgba(157,182,141,0.6);
     color: #000000;
-    font-size: 40px;
+    font-size: 70px;
     padding-right: 20px;
     padding-left: 20px;
 }
 .bottom-title {
-    text-transform: uppercase;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    /* text-transform: uppercase; */
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .bottom-title-attribute {
     font-style: italic;
     text-align: right;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 30px;
     text-transform: none;
 }
+.products-container {
+    background-color: #f5938e;
+    width: 100%;
+    font-family: 'Gabarito', sans-serif;
+    /* margin-top: 10px; */
+}
+.product-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.product-links-container {
+    display: flex;
+    padding: 15px;
+    padding-top: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+}
+.link-box-container {
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    margin: 10px;
+    background-color: #D7D7CC;
+    border-radius: 25px;
+}
+a {
+    text-decoration: none;
+}
+/* unvisited link */
+a:link {
+    color: black;
+}  
+/* mouse over link */
+a:hover {
+    color: #3a8a09;
+}
 .general-information-container {
+    font-family: 'Gabarito', sans-serif;
     display: flex;
     margin-top: 10px;
     justify-content: space-between;
@@ -71,7 +117,8 @@ body {
     margin-top: 20px;
 }
 .contact-info-container {
-    background-color: #B0C6CF;
+    background-color:#afa1d3;
+    /* background-color: #B0C6CF; */
     width: 50%;
     text-align: center;
     padding-top: 5px;
@@ -82,7 +129,7 @@ body {
 .contact-info-container h2 {
     text-transform: uppercase;
     font-size: 30px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 .phone-number {
     font-size: 50px;
@@ -99,6 +146,7 @@ body {
     margin-top: 3px;
 }
 .services-pricing-title-container {
+    font-family: 'Gabarito', sans-serif;
     text-align: center;
     background-color: #9DB68D;
     text-transform: uppercase;
@@ -109,6 +157,7 @@ body {
     margin-bottom: 0px;
 }
 .digitizing-info-container {
+    font-family: 'Gabarito', sans-serif;
     text-align: center;
     background-color: #9DB68D;
     font-size: 20px;
@@ -117,6 +166,7 @@ body {
     margin-bottom: 0px;
 }
 .custom-embroidery-info-container {
+    font-family: 'Gabarito', sans-serif;
     text-align: center;
     background-color: #9DB68D;
     font-size: 20px;
@@ -124,6 +174,7 @@ body {
     margin-bottom: 0px;
 }
 .tilde-container {
+    font-family: 'Gabarito', sans-serif;
     text-align: center;
     background-color: #9DB68D;
     font-size: 40px;
@@ -131,6 +182,7 @@ body {
     margin-bottom: 0px;
 }
 .accepted-payment-title-container {
+    font-family: 'Gabarito', sans-serif;
     text-align: center;
     background-color: #9DB68D;
     text-transform: uppercase;
@@ -141,6 +193,7 @@ body {
     margin-bottom: 0px;
 }
 .payment-info-container {
+    font-family: 'Gabarito', sans-serif;
     text-align: center;
     background-color: #9DB68D;
     font-size: 20px;
@@ -148,37 +201,3 @@ body {
     padding-bottom: 30px;
     margin-bottom: 0px;
 }
-.products-container {
-    background-color: #B0C6CF;
-    width: 100%;
-    margin-top: 10px;
-}
-.product-title {
-    font-size: 30px;
-    text-transform: uppercase;
-    text-align: center;
-}
-.product-links-container {
-    padding: 15px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: stretch;
-}
-.link-box-container {
-    
-}
-/* .product-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 600px;
-    justify-content: space-between;
-    align-items: stretch;
-    align-content: stretch;
-
-  a {
-    text-decoration: none;
-  }

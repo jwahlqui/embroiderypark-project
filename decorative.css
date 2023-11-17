@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Gabarito', sans-serif;
+    background-color: #eae4d6;
+    padding: 0px;
+    margin: 0px;
+}
+#page {
+    width: 100%;
+    height: 100%; 
+}
+#header {
+    background-image: url("Assets/spools-unsplashed.jpg");
+    position: relative;
+    background-size: cover;
+    background-position: 30% 80%;
+    height: 250px;
+}
+.decorative-title {
+    margin: auto;
+}
+.title-overlay-text {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    padding: 15px;
+    width: 100%;
+    bottom: 30%;
+    top: 30%;
+    right: 0px;
+    text-align: center;
+    margin-top: 0px;
+    background-color: rgba(157,182,141,0.6);
+    color: #000000;
+    font-size: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.images container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.decorative-image-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: stretch;
+}
+.decorative-image-square {
+    width: 300px;
+    height: 300px;
+    padding: 0px;
+    margin: 10px;
+    border: solid;
+    border-width: 10px;
+    border-color:#BCCBAE;
+    border-radius: 25px;
+}
+.decorative-image-column {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-evenly;
+}
+.decorative-image-tall-rectangle {
+    width: 300px;
+    height: 400px;
+    padding: 0px;
+    margin: 10px;
+    border: solid;
+    border-width: 10px;
+    border-color:#BCCBAE;
+    border-radius: 25px;
+}
+.decorative-image-wide-rectangle {
+    width: 500px;
+    height: 300px;
+    padding: 0px;
+    margin: 10px;
+    border: solid;
+    border-width: 10px;
+    border-color:#BCCBAE;
+    border-radius: 25px;
+}
